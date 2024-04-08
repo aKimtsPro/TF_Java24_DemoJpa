@@ -7,8 +7,9 @@
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/db_slide"/>
             <property name="jakarta.persistence.jdbc.user" value="postgres" />
             <property name="jakarta.persistence.jdbc.password" value="root" />
-            <property name="show_sql" value="true"/>
-            <property name="format_sql" value="true"/>
+
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
         </properties>
     </persistence-unit>
 </persistence>
